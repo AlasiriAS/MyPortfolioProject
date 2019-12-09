@@ -1,71 +1,75 @@
 
-#logo{
+#logo {
 	width: 25%;
 }
-.webname{
+
+.webname {
 	width: 75%;
 	text-align: right;
 }
-.head1{
+
+.head1 {
 	font-size: 2em;
 	color : #02b3e4;
 }
-.head2{
+
+.head2 {
 	font-size: 1.5em;
 	color : #2d3c49;
 }
-.head3{
+
+.head3 {
 	font-size: 15px;
 	color: #7d97ad;
 }
 
-.line{
+.line {
 	width: 100%;
 }
 
-.img2{
+.img2 {
 	width: 220px;
 	height: auto;
 }
+
 /*for the Google Nexus 5*/
 @media screen and (min-width: 360px) {
-	.webname{
+	.webname {
 		width: 100%;
 	}
-	.head1{
+	.head1 {
 		font-size: 30px;
 	}
-	.head2, .head3{
+	.head2, .head3 {
 		font-size: 20px;
 	}
-	.img2{
+	.img2 {
 	width: 100%;
 	height: auto;
 	}
-
 }
+
 /*for the iPad*/
 @media screen and (min-width: 768px) {
-	.head1{
+	.head1 {
 		font-size: 40px;
 	}
-	.head2{
+	.head2 {
 		font-size: 20px;
 	}
-
 }
+
 /*for the Desktop*/
 @media screen and (min-width: 1200px) {
-	.head1{
+	.head1 {
 		font-size: 3em;
 	}
-	.head2{
+	.head2 {
 		font-size: 1.5em;
 	}
-	.container{
+	.container {
 		width: 1200px;
 		margin-left: auto;
 		margin-right: auto;
 	}
-
 }
